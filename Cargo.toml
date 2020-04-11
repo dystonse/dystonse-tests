@@ -1,0 +1,10 @@
+[package]
+name = "dystonse-tests"
+version = "0.1.0"
+authors = ["Kirstin Rohwer <mail@metakiki.net>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+gtfs-structures = { git = "https://github.com/dystonse/gtfs-structure.git", branch = "route_variant", default-features = false}
