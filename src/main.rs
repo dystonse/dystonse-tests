@@ -14,10 +14,12 @@ fn main() -> FnResult<()> {
     Ok(())
 }
 
-const ROUTE_ID : &str = "vrn-8-10b-1";
-const SCHEDULE_PATH : &str = "data/test_schedule_vrn.zip";
+const ROUTE_ID : &str = "53837_3";
+//const ROUTE_ID : &str = "vrn-8-10b-1";
+const SCHEDULE_PATH : &str = "data/test_schedule_vbn.zip";
+//const SCHEDULE_PATH : &str = "data/test_schedule_vrn.zip";
 
-/// used to see if the trips in a route have their shape_id or route_variant set correctly
+/// used to see if the trips in a route have their shape_id and/or route_variant set correctly
 /// (note: vbn provides shape_id values, while vrn doesn't.)
 fn route_variant_test() -> FnResult<()> {
     println!("testing shape_id and route_variant computation:");

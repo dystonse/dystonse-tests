@@ -204,7 +204,7 @@ dependencies = [
 [[package]]
 name = "gtfs-structures"
 version = "0.20.0"
-source = "git+https://github.com/dystonse/gtfs-structure.git?branch=route_variant#55975430abf16c3dd7cc593683e12ed58913961a"
+source = "git+https://github.com/dystonse/gtfs-structure.git?branch=route_variant#362943dfe6a2680a07795dca43fef13976cff158"
 dependencies = [
  "bytes",
  "chrono",
